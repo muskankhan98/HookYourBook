@@ -1,0 +1,25 @@
+#heading
+{
+	text-align: center;
+	font-size: 50px;
+	font-family: Helvetica;
+	font-weight: bold;
+}
+
+#img1
+{
+	background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6));
+}
+
+#para1 {
+	font-family: Helvetica;
+	padding: 10px 10px 10px 10px;
+
+}
+
+
+#para2 {
+	font-family: Helvetica;
+	padding: 10px 10px 10px 10px;
+
+}

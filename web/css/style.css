@@ -1,0 +1,247 @@
+#wrapper
+{
+	font-family:tahoma;
+}
+.container
+{
+	width:95%;
+	margin:0 auto;
+}
+.link:hover
+{
+	color:white;
+	font-style:italic;
+}
+#subheader
+{
+	width:100%;
+	height:40px;
+	background:black;
+	color:#e8491d;
+	margin-top: -15px;
+}
+#subheader p
+{
+	float:left;
+	margin-top: 10px;
+}
+#subheader a
+{
+	float:right;
+	line-height:40px;
+	color:#e8491d;
+	text-decoration: none;
+	margin-left: 30px;
+}
+/*logo styling*/
+#main-header
+{
+	width: 100%;
+	height: 100px;
+	background:grey;
+	float:left;
+	margin-top: -15px;
+}
+#logo
+{
+	width:250px;
+	margin-top:10px;
+	float:left;
+}
+#ist
+{
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+	margin-left: 15px;
+	font-family:Times New Roman;
+}
+#iist
+{
+	color:black;
+	font-size: 20px;
+	font-weight:bold;
+	margin-left: 15px;
+	float: left;
+	font-family:Times New Roman;
+}
+/*Searching area styling */
+#search
+{
+	width:650px;
+	float:right;
+	margin-right:2px;
+	padding:50px;
+}
+.search-area
+{
+	margin-top: 10px;
+	width:400px;
+	height:30px;
+	background:#fff;
+	border:none;
+	border-radius:10px;
+
+}
+.search-btn
+{
+	margin-top: 10px;
+	height:30px;
+	background:brown;
+	border:none;
+	border-radius:10px;
+	margin-left:-73px;
+	color:white;
+}
+/*this is for user menu styling*/
+.user-menu a 
+{
+	
+	
+	position: relative;
+	left:900px;
+	line-height: 100px;
+	color:brown;
+	text-decoration: none;
+	border-left: 2px solid black;
+	padding: 20px
+}
+/* this is for list styling*/
+.user-menu li
+{
+
+	float:left;
+	width:100px;
+	text-align:right; 
+	list-style:none;
+	font-size: 20px;
+	
+
+}
+.user-menu li:hover
+{
+	font-size:25px;
+	transition: all .5s ease;
+}
+/* this style for navigation bar*/
+
+#slider
+{
+	width: 100%;
+	max-width: 100%;
+	height:50%;
+	float:left;
+}
+
+#footer 
+{
+	width:100%;
+	height: 60px;
+	background:grey;
+	float:left;
+	text-align: center;
+	font-weight: bold;
+	box-shadow: 10px 14px 50px 20px grey;
+}
+
+#boxes{
+	margin-top: 40px;
+
+}
+#boxes .box{
+	float:left;
+	text-align: center;
+	width:25%;
+	padding: 10px;
+}
+#boxes .box img{
+	width:100px;
+
+}
+#boxes .box2{
+	float:center;
+	text-align:center;
+	width:25%;	
+}
+#boxes .box1{
+	float:right;
+	text-align: center;
+	width:25%;
+	padding: 10px;
+}
+#boxes .box1 img{
+	width:100px;
+
+}
+.navbar
+		{
+			text-align:center;
+			width:100%;
+			opacity:0.9;
+		}
+		.navbar ul
+		{
+			margin:0;
+			padding:0;
+			list-style:none;
+			position:relative;
+		}
+		.navbar ul li a
+		{
+			display:block;
+			color:white;
+			text-decoration:none;
+			width:160px;
+		}
+		.navbar ul:after
+		{
+			content: ""; clear:both;
+			display:block;
+		}
+		.navbar ul li
+		{
+			float:left;
+			list-style:none;
+		}
+		.navbar ul ul
+		{
+			display:none;
+		}
+		.navbar ul li:hover > ul
+		{
+			display:block;
+		}
+		.navbar ul li:hover 
+		{
+			background:black;
+			transition:0.9s;
+		}
+		.navbar ul li:hover a
+		{
+			color:white;
+		}
+		.navbar ul ul
+		{
+			background:black;
+			padding:0;
+			margin:0;
+			position:absolute; top:100%;
+		}
+		.navbar ul ul li
+		{
+			float:none;
+			position:relative;
+		}
+		.navbar ul ul li a
+		{
+			color:white;
+			width:250px;
+			text-align:left;
+		}
+		.navbar ul ul li a:hover
+		{
+			background:grey;
+			color:white;
+			transition:0.9s;
+		}
+		
