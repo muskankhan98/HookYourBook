@@ -1,8 +1,4 @@
-<%-- 
-    Document   : top_searches_code
-    Created on : Mar 31, 2018, 10:57:30 PM
-    Author     : ABHINANDAN COMPUTERS
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
